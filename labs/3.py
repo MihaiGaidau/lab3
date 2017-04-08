@@ -30,7 +30,7 @@ for i in range(0, len(data)):
 counts = dict((sorted(counts.items(), key=itemgetter(0), reverse=False)))
 pprint(counts)
 
-plotly.tools.set_credentials_file(username='MihaiGaidau', api_key='gXPsYKcMRKHFpGWNnq2w')
+# plotly.tools.set_credentials_file(username='MihaiGaidau', api_key='gXPsYKcMRKHFpGWNnq2w')
 # Learn about API authentication here: https://plot.ly/python/getting-started
 # Find your api_key here: https://plot.ly/settings/api
 
@@ -61,7 +61,7 @@ plt.bar(y_pos, nr, align='center', alpha=0.5)
 # plt.plot(datas, nr)
 plt.xticks(y_pos, datas)
 plt.ylabel('Usage')
-plt.title('the use of "love"')
+plt.title('the use ')
 
 plt.show()
 # fig = plt.gcf()
